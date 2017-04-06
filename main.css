@@ -1,0 +1,25 @@
+html,
+body{
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Monsterrat", sans-serif;
+    color: #363635;
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container img{
+    width: 65px;
+    height: auto;
+    padding: 15px;
+    margin-left: 15px;
+    border-bottom: 2px solid #363635;
+}
+h1, h2{
+    padding: 15px;
+    width: 85%;
+}
