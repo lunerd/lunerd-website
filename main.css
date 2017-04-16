@@ -23,6 +23,10 @@ h1, h2{
     padding: 15px;
     width: 85%;
 }
+a{
+    color: #FF9A22;
+}
+
 @media (max-width: 450px){
     h2{font-size: 14px;}
 }
