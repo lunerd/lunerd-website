@@ -26,6 +26,11 @@ h1, h2{
 }
 a{
     color: #FF9A22;
+    padding: 15px;
+    background-color: #44DDAB;
+    border-radius: 100px;
+    margin-left: 10px;
+    color: #FFF;
 }
 .sec-title{
     text-transform: uppercase;
