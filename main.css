@@ -30,7 +30,7 @@ a{
     text-transform: uppercase;
     color: #FF9A22;
 }
-.port-image img{
+.port-image > img{
     width: 100%;
     height: auto;
     margin: 0 auto;
