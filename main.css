@@ -30,6 +30,11 @@ a{
     text-transform: uppercase;
     color: #FF9A22;
 }
+.port-image img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 
 @media (max-width: 450px){
     h2{font-size: 14px;}
