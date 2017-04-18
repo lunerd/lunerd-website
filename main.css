@@ -43,6 +43,10 @@ a{
     width: 90%;
     position: relative;
 }
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 @media (max-width: 450px){
     h2{font-size: 14px;}
