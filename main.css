@@ -28,6 +28,7 @@ a{
 }
 .sec-title{
     text-transform: uppercase;
+    color: #FF9A22;
 }
 
 @media (max-width: 450px){
