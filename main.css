@@ -1,12 +1,13 @@
+.sec{
+    margin-bottom: 25px;
+}
 .site-id img{
     width: 50px;
     padding: 10px 0;
 }
 .site-contact a{
-    display: block;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #198dd8;
 }
 .focus{
     font-weight: bold;
