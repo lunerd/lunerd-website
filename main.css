@@ -1,48 +1,7 @@
-html,
-body{
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-}
-.container{
-    margin: 0;
-    padding: 0;
-}
-.identity{
-    width: 100%;
+.site-id img{
+    width: 50px;
     padding: 10px 0;
-    position: relative;
 }
-.identity img{
-    width: 60px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border-bottom: 2px solid #198dd8;
-}
-.site-info h1{
-    font-weight: 700;
-}
-.site-info h1, p{
+p{
     color: #198dd8;
-}
-.name{
-    font-weight: bold;
-}
-.contact-one{
-    margin-top: 35px;
-}
-.contact-one a{
-    background-color: #198dd8;
-    padding: 15px;
-    border-radius: 15px;
-    text-align: center;
-    color: #fff;
-}
-#call{
-    margin-top: 35px;
-}
-@media (min-width: 975px){
-    .site-info > p{
-        width: 75%;
-    }
 }
