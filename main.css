@@ -199,6 +199,12 @@ nav a {
 	visibility: hidden;
 }
 
+.tad-proj-img {
+	background: url(images/tad_bg.jpg) center center no-repeat;
+	background-size: auto;
+	visibility: hidden;
+}
+
 .project-des-info h1 {
 	font-family: 'Poppins', sans-serif;
 	color: #fff !important;
@@ -222,6 +228,7 @@ nav a {
 .content h1 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 28px;
+	color: #00566a !important;
 }
 
 .content p {
@@ -253,14 +260,9 @@ nav a {
 @media (min-width:576px) and (max-width: 767.98px) {
 	.info h1 {
 		font-size: 34px;
-/*		margin-bottom: 25px;*/
 	}
 	.info p {
 		font-size: 18px;
-	}
-	
-	.project-img {
-		visibility: visible;
 	}
 	
 	.col-img {
@@ -282,6 +284,10 @@ nav a {
 	}
 	
 	.laac-proj-img {
+		visibility: visible;
+	}
+	
+	.tad-proj-img {
 		visibility: visible;
 	}
 	
@@ -335,6 +341,10 @@ nav a {
 	}
 	
 	.laac-proj-img {
+		visibility: visible;
+	}
+	
+	.tad-proj-img {
 		visibility: visible;
 	}
 	
