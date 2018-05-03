@@ -205,6 +205,12 @@ nav a {
 	visibility: hidden;
 }
 
+.dpc-proj-img {
+	background: url(images/dpc_bg.jpg) center center no-repeat;
+	background-size: auto;
+	visibility: hidden;
+}
+
 .project-des-info h1 {
 	font-family: 'Poppins', sans-serif;
 	color: #fff !important;
@@ -291,6 +297,10 @@ nav a {
 		visibility: visible;
 	}
 	
+	.dpc-proj-img {
+		visibility: visible;
+	}
+	
 	.content {
 		margin-top: 25px;
 	}
@@ -345,6 +355,9 @@ nav a {
 	}
 	
 	.tad-proj-img {
+		visibility: visible;
+	}
+	.dpc-proj-img {
 		visibility: visible;
 	}
 	
