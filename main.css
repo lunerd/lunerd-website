@@ -169,6 +169,30 @@ nav a {
 	padding: 0 5px;
 }
 
+.projects {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.projects a {
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	color: #ff1919 !important;
+}
+
+.projects a:hover {
+	text-decoration: none !important;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
 
 /* -- default pages styling -- */
 
