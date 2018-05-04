@@ -217,6 +217,12 @@ nav a {
 	visibility: hidden;
 }
 
+.lead-proj-img {
+	background: url(images/lead_promo_two.jpg) center center no-repeat;
+	background-size: auto;
+	visibility: hidden;
+}
+
 .project-des-info h1 {
 	font-family: 'Poppins', sans-serif;
 	color: #fff !important;
@@ -311,6 +317,10 @@ nav a {
 		visibility: visible;
 	}
 	
+	.lead-proj-img {
+		visibility: visible;
+	}
+	
 	.content {
 		margin-top: 25px;
 	}
@@ -372,6 +382,10 @@ nav a {
 	}
 	
 	.cr-proj-img {
+		visibility: visible;
+	}
+	
+	.lead-proj-img {
 		visibility: visible;
 	}
 	
