@@ -211,6 +211,12 @@ nav a {
 	visibility: hidden;
 }
 
+.cr-proj-img {
+	background: url(images/cr-bg.jpg) center center no-repeat;
+	background-size: cover;
+	visibility: hidden;
+}
+
 .project-des-info h1 {
 	font-family: 'Poppins', sans-serif;
 	color: #fff !important;
@@ -301,6 +307,10 @@ nav a {
 		visibility: visible;
 	}
 	
+	.cr-proj-img {
+		visibility: visible;
+	}
+	
 	.content {
 		margin-top: 25px;
 	}
@@ -358,6 +368,10 @@ nav a {
 		visibility: visible;
 	}
 	.dpc-proj-img {
+		visibility: visible;
+	}
+	
+	.cr-proj-img {
 		visibility: visible;
 	}
 	
