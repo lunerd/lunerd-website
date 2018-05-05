@@ -157,6 +157,11 @@ nav a {
 	background-size: cover;
 }
 
+.vl-bg {
+	background: url(images/vl_laptop.jpg) center center no-repeat;
+	background-size: cover;
+}
+
 .footer {
 	text-align: center;
 	padding-top: 25px;
@@ -243,6 +248,12 @@ nav a {
 
 .lead-proj-img {
 	background: url(images/lead_promo_two.jpg) center center no-repeat;
+	background-size: auto;
+	visibility: hidden;
+}
+
+.vl-proj-img {
+	background: url(images/vl_laptop.jpg) center center no-repeat;
 	background-size: auto;
 	visibility: hidden;
 }
@@ -382,6 +393,10 @@ nav a {
 		visibility: visible;
 	}
 	
+	.vl-proj-img {
+		visibility: visible;
+	}
+	
 	.content {
 		margin-top: 25px;
 	}
@@ -451,6 +466,10 @@ nav a {
 	}
 	
 	.lead-proj-img {
+		visibility: visible;
+	}
+	
+	.vl-proj-img {
 		visibility: visible;
 	}
 	
