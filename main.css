@@ -2,7 +2,7 @@
 *::before,
 *::after, {
 	box-sizing: border-box;
-}	
+}
 
 /*h1, h2, h3, h4, h5, h6, p { color: #151711 !important; }*/
 h1, h2, h3, h4, h5, h6 { color: #173652 !important; }
@@ -60,11 +60,11 @@ nav a {
 }
 
 .info {
-	padding-top: 120px;
-	padding-bottom: 110px;
+	padding-top: 100px;
+	padding-bottom: 90px;
 	margin-top: 5px;
-	background-color: #ff1919;
-/*	background-color: #00566a;*/
+	/* background-color: #ff1919; */
+	/* background-color: #00566a; */
 }
 
 .info h1 {
@@ -72,13 +72,13 @@ nav a {
 	font-size: 28px;
 	margin-bottom: 10px;
 	width: 100%;
-	color: #fff !important;
+	color: #00566a !important;
 }
 
 .info p {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
-	color: #fff !important;
+	color: #00566a !important;
 }
 
 .info span {
@@ -168,7 +168,7 @@ nav a {
 	padding-bottom: 25px;
 }
 
-.fab, .fas {	
+.fab, .fas {
 	color: #00566a;
 	font-size: 24px;
 	padding: 0 5px;
@@ -213,7 +213,7 @@ nav a {
 .project-des {
 	padding-top: 40px;
 	padding-bottom: 75px;
-	background-color: #ff1919;
+	/* background-color: #ff1919; */
 }
 
 .project-img {
@@ -265,11 +265,11 @@ nav a {
 
 .project-des-info h1 {
 	font-family: 'Poppins', sans-serif;
-	color: #fff !important;
+	color: #00566a !important;
 }
 
 .project-des-info p {
-	color: #fff !important;
+	color: #00566a !important;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
 }
@@ -319,24 +319,24 @@ nav a {
 	.ml-auto ul {
 		display: inline;
 	}
-	
+
 	.first-nav {
 		margin-right: 15px !important;
 	}
-	
+
 	.col-img {
 		margin-bottom: 5px;
 	}
-	
+
 	.banner-img {
 		margin-bottom: 5px;
 	}
-	
+
 	.ed-img {
 		padding-top: 175px;
 		padding-bottom: 175px;
 	}
-	
+
 	.skills-info p {
 		font-size: 14px;
 	}
@@ -349,22 +349,22 @@ nav a {
 	.info p {
 		font-size: 18px;
 	}
-	
+
 	.col-img {
 		margin-bottom: 5px;
 	}
-	
+
 	.ed-img {
 		padding-top: 300px;
 		padding-bottom: 175px;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
 	.info h1{
 		font-size: 38px;
 	}
-	
+
 	.info p {
 		font-size: 21px;
 		width: 750px;
@@ -372,144 +372,127 @@ nav a {
 	.project-img {
 		visibility: visible;
 	}
-	
+
 	.laac-proj-img {
 		visibility: visible;
 	}
-	
+
 	.tad-proj-img {
 		visibility: visible;
 	}
-	
+
 	.dpc-proj-img {
 		visibility: visible;
 	}
-	
+
 	.cr-proj-img {
 		visibility: visible;
 	}
-	
+
 	.lead-proj-img {
 		visibility: visible;
 	}
-	
+
 	.vl-proj-img {
 		visibility: visible;
 	}
-	
+
 	.content {
 		margin-top: 25px;
 	}
-	
+
 	.content p {
 		margin-bottom: 55px;
 	}
-	
+
 	.banner-img {
 		margin-bottom: 30px;
 	}
-	
+
 	.skills-info p {
 		font-size: 16px;
 	}
-	
+
 }
 
 @media (min-width: 992px) {
 	.info h1 {
 		font-size: 34px;
 	}
-	
+
 	.info p {
 		font-size: 18px;
 		width: 800px;
 	}
-	
+
 	.ml-auto a {
 		font-size: 14px;
 	}
-	
+
 	.inner-work-info p {
 		font-size: 14px;
 	}
-	
+
 	.project-des {
 		padding-bottom: 110px;
 	}
-	
+
 	.project-des-info h1 {
 		font-size: 42px;
 		padding-top: 20px;
 	}
-	
+
 	.project-des-info p {
 		font-size: 18px;
 	}
-	
+
 	.project-img {
 		visibility: visible;
 	}
-	
+
 	.laac-proj-img {
 		visibility: visible;
 	}
-	
+
 	.tad-proj-img {
 		visibility: visible;
 	}
 	.dpc-proj-img {
 		visibility: visible;
 	}
-	
+
 	.cr-proj-img {
 		visibility: visible;
 	}
-	
+
 	.lead-proj-img {
 		visibility: visible;
 	}
-	
+
 	.vl-proj-img {
 		visibility: visible;
 	}
-	
+
 	.content {
 		margin-top: 75px;
 	}
-	
+
 	.content h1 {
 		font-size: 42px;
 		margin-bottom: 25px;
 	}
-	
+
 	.content p {
 		font-size: 16px;
 		margin-bottom: 100px;
 		width: 900px;
 	}
-	
+
 	.banner-img {
 		margin-bottom: 30px;
 	}
-	
+
 	.skills-info p {
 		font-size: 18px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
