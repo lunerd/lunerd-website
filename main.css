@@ -263,9 +263,15 @@ nav a {
 	background-size: cover;
 }
 
-.project-des-info h1 {
+.project-des-info h1{
 	font-family: 'Poppins', sans-serif;
 	color: #00566a !important;
+}
+
+.project-des-info a {
+	font-family: 'Poppins', sans-serif;
+	color: #00566a;
+	font-size: 24px;
 }
 
 .project-des-info p {
