@@ -10,6 +10,29 @@
 	margin: 0;
 }
 
+/* --- Animation --- */
+
+@keyframes flicker{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+		opacity: 1;
+	}
+}
+.content img.logo{
+	animation-duration: 1s;
+	animation-name: flicker;
+}
+
+/* --- Animation End --- */
+
 #main-wrapper{
 	height: 100vh;
 	background: #000000;
