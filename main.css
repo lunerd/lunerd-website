@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
 *,
 *::before,
 *::after, {
@@ -13,6 +15,32 @@
 	background: #000000;
 }
 .content img.logo{
-	max-height: 200px;
+	max-height: 150px;
 	width: auto;
+}
+.content-wrapper{
+	height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+	padding: 0 25px;
+	text-align: center;
+}
+.content-text p{
+	color: #fff;
+	font-family: "Questrial", 'Helvetica', 'Arial', sans-serif;
+	margin-bottom: 15px;
+	font-size: 9pt;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+	.content-text p{
+		font-size: 12pt;
+	}
+}
+@media screen and (min-width: 1024px){
+	.content-text p{
+		font-size: 14pt;
+	}
 }
