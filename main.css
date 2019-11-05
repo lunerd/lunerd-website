@@ -25,6 +25,9 @@
 	75%{
 		opacity: 1;
 	}
+	100%{
+		opacity: 1;
+	}
 }
 .content img.logo{
 	animation-duration: 1s;
