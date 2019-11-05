@@ -12,3 +12,7 @@
 	height: 100vh;
 	background: #000000;
 }
+.content img.logo{
+	max-height: 200px;
+	width: auto;
+}
