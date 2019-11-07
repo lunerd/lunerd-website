@@ -12,26 +12,19 @@
 
 /* --- Animation --- */
 
-@keyframes flicker{
+@keyframes fadeTop{
 	0%{
+		margin-top: -5vh;
 		opacity: 0;
-	}
-	25%{
-		opacity: 1;
-	}
-	50%{
-		opacity: 0;
-	}
-	75%{
-		opacity: 1;
 	}
 	100%{
+		margin-top: 0;
 		opacity: 1;
 	}
 }
-.content img.logo{
+.content{
 	animation-duration: 1s;
-	animation-name: flicker;
+	animation-name: fadeTop;
 }
 
 /* --- Animation End --- */
@@ -54,11 +47,35 @@
 	padding: 0 25px;
 	text-align: center;
 }
-.content-text p{
+.content-text p,
+.content-contact button{
 	color: #fff;
 	font-family: "Questrial", 'Helvetica', 'Arial', sans-serif;
 	margin-bottom: 15px;
 	font-size: 9pt;
+}
+.content-contact button{
+	background: none;
+	border: 2px solid #fff;
+	border-radius: 100px;
+	padding: 10px 20px;
+	color: #fff;
+	outline: 0;
+	margin-top: 5px;
+	font-size: 10pt;
+}
+.content-contact button:hover{
+	background: #fff;
+	color: #000;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+.content-contact button:focus{
+	highlight: 0;
+}
+.content-contact button:visited{
+	background: none;
 }
 @media (min-width: 768px) and (max-width: 1023px){
 	.content-text p{
